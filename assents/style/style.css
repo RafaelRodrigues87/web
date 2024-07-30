@@ -1,0 +1,21 @@
+body {
+    background-image: url('../style/img/image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+}
+
+a {
+    font-size: 45px;
+    font-family: serif; 
+    color: #3b318e;
+    text-decoration: none;
+    padding: 25px;
+    display: inline-block; 
+    transition: color 0.3s ease; 
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
