@@ -1,21 +1,26 @@
 body {
-    background-image: url('../style/img/image.png');
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0; 
-    font-family: Arial, sans-serif; 
+    font-family: "Roboto", sans-serif; 
+    color: dimgray; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
 }
 
 a {
-    font-size: 45px;
-    font-family: serif; 
-    color: #3b318e;
+    color: dimgray;
+    font-size: 20px;
     text-decoration: none;
+    font-weight: 850;
     padding: 25px;
     display: inline-block; 
     transition: color 0.3s ease; 
 }
 
 a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(14, 2, 145);
 }
